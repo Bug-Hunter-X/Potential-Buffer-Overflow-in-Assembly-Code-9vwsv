@@ -1,0 +1,1 @@
+This repository demonstrates a potential buffer overflow vulnerability in a short snippet of x86 assembly code. The bug arises from adding a value to a memory location without checking if the resulting value would exceed the buffer's allocated size.  The solution provides a safer alternative that includes bounds checking.
